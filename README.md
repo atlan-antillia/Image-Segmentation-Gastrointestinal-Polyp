@@ -1,6 +1,6 @@
 # Image-Segmentation-Gastrointestinal-Polyp (Updated: 2023/06/23)
 <h2>
-1 Image-Segmentation-Brain-Tumor
+1 Image-Segmentation-Gastrointestinal-Polyp
 </h2>
 <p>
 This is an experimental project for Image-Segmentation of Gastrointestinal-Polyp by using
