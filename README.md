@@ -208,10 +208,10 @@ ten images extracted from <b>test</b> dataset,
 <br>
 
 <b>Inferred images (mini_test_output)</b><br>
-Some green tumor regions in the original images of the mini_test dataset above have been detected as shown below.
+Some white polyp regions in the original images of the mini_test dataset above have been detected as shown below.
 <img src="./asset/mini_test_output.png" width="1024" height="auto"><br>
 <br>
-<b>Merged inferred images</b><br>
+<b>Merged inferred images blended with the orignal images and inferred images</b><br>
 <img src="./asset/mini_test_output_merged.png" width="1024" height="auto"><br><br>
 
 <br>
