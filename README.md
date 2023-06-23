@@ -46,8 +46,10 @@ Kvasir-SEG
 <h3>
 2.2 Create master dataset
 </h3>
-We have split Kvasir-SEG dataset to <b>test</b>,<b>train</b> and <b>valid</b> dataset 
-by using Python <a href="./projects/GastrointestinalPolyp/generator/create_master_256x256.py">create_master_256x256.py</a> script.
+We have split <b>images</b> and <b>masks</b> dataset in Kvasir-SEG to <b>test</b>, <b>train</b> and <b>valid</b> dataset 
+by using Python <a href="./projects/GastrointestinalPolyp/generator/create_master_256x256.py">create_master_256x256.py</a> script,
+by which we have also resized all images and masks files in <b>train</b> and <b>valid</b> to be 256x256 and 
+applied some rotation and flip operations to the resized images to augment those dataset.    
 <pre>
 GastrointestinalPolyp
 ├─test
@@ -82,7 +84,7 @@ Please run the following bat file.<br>
 <pre>
 ; train_eval_infer.config
 ; 2023/6/23 antillia.com
-; Added BatchNormalization flag to [model section.
+; Added BatchNormalization flag to model section.
 ; normalization = True
 
 [model]
